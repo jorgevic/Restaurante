@@ -1,0 +1,506 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lur Gatika</title>
+	<meta name="description" content="">
+	<meta name="author" content="Jorge García Betanzos (@jorgevic77)">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta http-equiv="cleartype" content="on">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!-- For iPhone 4 with high-resolution Retina display: -->
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/icon@2x.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/icon-72.png">
+	<link rel="apple-touch-icon-precomposed" href="assets/images/icon.png">
+	<link rel="apple-touch-startup-image" href="assets/images/default.png">
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="./lungo.js/lungo-1.1.2.min.css">
+	<link rel="stylesheet" href="./lungo.js/lungo.theme.default.css">
+	<link rel="stylesheet" href="./assets/stylesheets/self.css">
+</head> 
+
+<body class="app" onload="initialize()">
+	<section id="home">
+		<header data-title="Lur Gatika Jatetxea"></header>
+		<article id="article_home">
+			<p style="position:relative;left:30%;top:7px;height:30px;"></p>
+			<p class="buttons onleft" id="botones_home1" style="width:50%;">
+			<a href="#salones" data-target="section" class="button big magenta">Salones</a>
+			<a href="#jardines" data-target="section" class="button big magenta">Jardines</a>
+			<a href="#menus" data-target="section" class="button big magenta">Menus</a>
+			</p>
+			<p class="buttons onright" id="botones_home2" style="width:50%;">
+			<a href="#contacto" data-target="section" class="button big magenta">Contacto</a>
+			<a href="#localizacion" data-target="section" class="button big magenta">Localización</a>
+			<a href="http://www.facebook.com/pages/Restaurante-Lur-Gatika-Jatetxea/112536035444585" class="button big facebook" data-icon="facebook">facebook</a>
+			</p>
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="jardines">
+		<header data-back="left" data-title="Jardines">
+		</header>
+		<article id="scJardines" class="scrollable">
+		<div class="indented">
+		<div id="contenedor_jardines" class="recuadros">
+			<div class="containerImg">
+			<a href="#" id="imagenes"><img src="assets/images/jardines1.jpg" id="imagen1" style="width:100%"><span class="hand"></span></a>
+			</div>
+		</div>
+		</div>
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+	
+	<section id="salones">
+		<header data-back="left" data-title="Salones">
+		</header>
+		<article id="scSalones" class="scrollable">
+		<div class="indented">
+			<a href="#basajaun" data-target="section" class="button big magenta">Basajaun</a>
+			<a href="#mari" data-target="section" class="button big magenta">Mari</a>
+			<a href="#lamias" data-target="section" class="button big magenta">Lamiak</a>
+			<a href="#real" data-target="section" class="button big magenta">Real</a>
+			<a href="#imperial" data-target="section" class="button big magenta">Imperial</a>
+			</div>
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+	
+	<section id="basajaun">
+		<header data-back="left" data-title="Salón Basajaun">
+		</header>
+		<article id="scBasajaun" class="scrollable">
+		<div class="indented" style="height:100%">
+		<div id="contenedor_basajaun" class="recuadros">
+			<div class="containerImg">
+			<a href="#" id="imagenes"><img src="assets/images/basajaun1.jpg" id="imagen1" style="width:100%"><span class="hand"></span></a>
+			</div>
+		</div>
+		<div class="titulosSalon"><br>
+			* 90 comensales<br>
+			* Aseos en salón<br>
+			* A/C y calefacción<br>
+			* Acceso discapacitados<br>
+			* Jardín privado
+		</div>
+		</div>
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+	
+	<section id="mari">
+		<header data-back="left" data-title="Salón Mari">
+		</header>
+		<article id="scMari" class="scrollable">
+		<div class="indented" style="height:100%">
+		<div id="contenedor_mari" class="recuadros">
+			<div class="containerImg">
+			<a href="#" id="imagenes"><img src="assets/images/mari1.jpg" id="imagen1" style="width:100%"><span class="hand"></span></a>
+			</div>
+		</div>
+		<div class="titulos">
+			<img src="assets/images/caract_mari.gif"><br>
+			<strong>Leyenda</strong>
+			<img src="assets/images/leyenda.gif" style="width:100%">
+		</div>
+		</div>
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="lamias">
+		<header data-back="left" data-title="Salón Lamiak">
+		</header>
+		<article id="scLamias" class="scrollable">
+		<div class="indented" style="height:100%">
+		<div id="contenedor_lamias" class="recuadros">
+			<div class="containerImg">
+			<a href="#" id="imagenes"><img src="assets/images/lamias1.jpg" id="imagen1" style="width:100%"><span class="hand"></span></a>
+			</div>
+		</div>
+		<div class="titulosSalon"><br>
+			* 160 comensales<br>
+			* Aseos en salón<br>
+			* A/C y calefacción<br>
+			* Acceso discapacitados<br>
+			* Junto a sala de fiestas
+		</div>
+		</div>
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="real">
+		<header data-back="left" data-title="Salón Real">
+		</header>
+		<article id="scReal" class="scrollable">
+		<div class="indented" style="height:100%">
+		<div id="contenedor_real" class="recuadros">
+			<div class="containerImg">
+			<a href="#" id="imagenes"><img src="assets/images/real1.jpg" id="imagen1" style="width:100%"><span class="hand"></span></a>
+			</div>
+		</div>
+		<div class="titulosSalon"><br>
+			* 200 comensales<br>
+			* Aseos en salón<br>
+			* A/C y calefacción<br>
+			* Acceso discapacitados<br>
+			* Terraza privada<br>
+			* Posibilidad de unir con Imperial hasta 450 comensales
+		</div>
+		</div>
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="imperial">
+		<header data-back="left" data-title="Salón Imperial">
+		</header>
+		<article id="scImperial" class="scrollable">
+		<div class="indented" style="height:100%">
+		<div id="contenedor_imperial" class="recuadros">
+			<div class="containerImg">
+			<a href="#" id="imagenes"><img src="assets/images/imperial1.jpg" id="imagen1" style="width:100%"><span class="hand"></span></a>
+			</div>
+		</div>
+		<div class="titulosSalon"><br>
+			* 190 comensales<br>
+			* Aseos en salón<br>
+			* A/C y calefacción<br>
+			* Acceso discapacitados<br>
+			* Posibilidad de unir con Real hasta 450 comensales
+		</div>
+		</div>
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="contacto">
+		<header data-back="left" data-title="Formulario de contacto"></header>
+		<article>
+		<p class="form">
+		<input type="text" placeholder="Introduce nombre" name="nombre" class="rounded">
+		<input type="text" placeholder="Introduce email" name="email" class="rounded">
+		<input type="text" placeholder="Introduce asunto" name="asunto" class="rounded">
+		<textarea placeholder="Texto" class="rounded" name="cuerpo" rows="10"></textarea>
+		<a href="#" class="button magenta rounded" id="emailEnvio">Enviar consulta</a>
+		</p>
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="localizacion">
+		<header data-back="left" data-title="Localización"></header>
+		<article id="scLocalizacion">
+		<div id="map_canvas" style="width:100%; height:100%; float:left"></div>
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menus">
+		<header data-back="left" data-title="Menús disponibles"></header>
+		<article id="main_menus" class="summary">
+			<a href="#menusBoda" data-target="section" class="button big magenta">Menús de boda</a>
+			<a href="#menusEmpresa" data-target="section" class="button big magenta">Menús de empresa</a>
+			<a href="#menuDia" data-target="section" class="button big magenta" id="tapMenus">Menú del día</a>
+			<a href="#menuFinde" data-target="section" class="button big magenta" id="tapMenus">Menú fin de semana</a>
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menusBoda">
+		<header data-back="left" data-title="Menús boda"></header>
+		<article id="main_menusBoda" class="scrollable">
+			<div class="indented">
+				<a href="#menuCoctel" data-target="section" class="button big magenta" id="tapMenus">Cóctel Bodas</a>
+				<a href="#menuTopacio" data-target="section" class="button big magenta" id="tapMenus">Menú Topacio</a>
+				<a href="#menuEsmeralda" data-target="section" class="button big magenta" id="tapMenus">Menú Esmeralda</a>
+				<a href="#menuZafiro" data-target="section" class="button big magenta" id="tapMenus">Menú Zafiro</a>
+				<a href="#menuRubi" data-target="section" class="button big magenta" id="tapMenus">Menú Rubí</a>
+				<a href="#menuDiamante" data-target="section" class="button big magenta" id="tapMenus">Menú Diamante</a>
+				<a href="#menuTxiki" data-target="section" class="button big magenta" id="tapMenus">Menú Txiki</a>
+				<a href="#menuRecena" data-target="section" class="button big magenta" id="tapMenus">Menú Recena</a>
+				<div style="height: 100px;">&nbsp;</div>
+			</div>
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menuCoctel">
+		<header data-back="left" data-title="Cóctel Bodas"></header>
+		<article id="scroll_menuCoctel">
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menuTopacio">
+		<header data-back="left" data-title="Menu Topacio"></header>
+		<article id="scroll_menuTopacio">
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menuEsmeralda">
+		<header data-back="left" data-title="Menu Esmeralda"></header>
+		<article id="scroll_menuEsmeralda">
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menuZafiro">
+		<header data-back="left" data-title="Menu Zafiro"></header>
+		<article id="scroll_menuZafiro">
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+	
+	<section id="menuRubi">
+		<header data-back="left" data-title="Menu Rubi"></header>
+		<article id="scroll_menuRubi">
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menuDiamante">
+		<header data-back="left" data-title="Menu Diamante"></header>
+		<article id="scroll_menuDiamante">
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menuTxiki">
+		<header data-back="left" data-title="Menu Txiki"></header>
+		<article id="scroll_menuTxiki">
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menuRecena">
+		<header data-back="left" data-title="Menu Recena"></header>
+		<article id="scroll_menuRecena">
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menusEmpresa">
+		<header data-back="left" data-title="Menús empresa"></header>
+		<article id="scroll_menusEmpresa">
+			<a href="#menuLaga" data-target="section" class="button big magenta" id="tapMenus">Menú Laga</a>
+			<a href="#menuLaida" data-target="section" class="button big magenta" id="tapMenus">Menú Laida</a>
+			<a href="#menuGaztelugatxe" data-target="section" class="button big magenta" id="tapMenus">Menú Gaztelugatxe</a>
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menuLaga">
+		<header data-back="left" data-title="Menu Laga"></header>
+		<article id="scroll_menuLaga">
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menuLaida">
+		<header data-back="left" data-title="Menu Laida"></header>
+		<article id="scroll_menuLaida">
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menuGaztelugatxe">
+		<header data-back="left" data-title="Menu Gaztelugatxe"></header>
+		<article id="scroll_menuGaztelugatxe">
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>>
+		</footer>
+	</section>
+
+	<section id="menuDia">
+		<header data-back="left" data-title="Menu del día"></header>
+		<article id="scroll_menuDia">
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<section id="menuFinde">
+		<header data-back="left" data-title="Menu de fin de semana"></header>
+		<article id="scroll_menuFinde">
+		</article>
+		<footer class="toolbar">
+			<nav>
+				<a href="#home" data-target="section" class="black" data-icon="home"></a>
+				<a href="#localizacion" data-target="section" class="black" data-icon="pushpin"></a>
+				<a href="#menus" data-target="section" class="black" data-icon="map"></a>
+			</nav>
+		</footer>
+	</section>
+
+	<!-- LungoJS (Production mode) -->
+<script src="lungo.js/lungo-1.1.2.packed.js"></script>
+<!-- <script src="lungo.js/lib/iscroll-lite.js"></script>
+<script src="lungo.js/lib/QuoJS.js"></script>
+<script src="lungo.js/lungo-1.1.2.js"></script>
+-->
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA52o8m-um48s6hvx1SCgT_poIei-lkgDg&sensor=false&language=es"></script>
+	<script src="assets/javascripts/map.js"></script>
+	<!-- LungoJS - Sandbox App -->    
+	<script src="app/app.js"></script>
+	<script src="app/data.js"></script>
+	<script src="app/events.js"></script>
+	<script src="app/services.js"></script>
+	<script src="app/view.js"></script>
+</body> 
+</html>
